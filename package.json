@@ -2,7 +2,7 @@
   "name": "bend-naturalist",
   "private": true,
   "version": "0.0.0",
-  "homepage": "https://VibinWithVitz.github.io/BendNaturalist", 
+  "homepage": "https://VibinWithVitz.github.io/BendNaturalist",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
@@ -10,5 +10,14 @@
     "preview": "vite preview",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d dist"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^6.0.1",
+    "gh-pages": "^6.3.0",
+    "vite": "^8.0.3"
+  },
+  "dependencies": {
+    "react": "^19.2.4",
+    "react-dom": "^19.2.4"
   }
 }
