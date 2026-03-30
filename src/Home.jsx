@@ -183,9 +183,23 @@ export default function Home({ onSelect }) {
           ))}
         </div>
 
-        <p style={{ marginTop: 48, fontSize: "0.65rem", color: `${P.muted}80`, textAlign: "center" }}>
-          More decks in development · Created for the naturalists of Central Oregon
-        </p>
+        {/* Beta disclaimer */}
+        <div style={{
+          marginTop: 48,
+          padding: "12px 20px",
+          borderRadius: 10,
+          border: `1px solid ${P.softGold}80`,
+          background: `${P.parchment}`,
+          maxWidth: 480,
+          textAlign: "center",
+        }}>
+          <p style={{ fontSize: "0.75rem", color: P.warmBrown, fontWeight: 600, letterSpacing: "0.08em", textTransform: "uppercase", marginBottom: 4 }}>
+            Beta Version
+          </p>
+          <p style={{ fontSize: "0.78rem", color: P.muted, fontStyle: "italic", lineHeight: 1.5 }}>
+            This app is in early development. Content and features may change. More decks are on the way — created for the naturalists of Central Oregon.
+          </p>
+        </div>
       </div>
     </>
   );
