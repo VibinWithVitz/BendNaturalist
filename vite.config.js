@@ -3,5 +3,5 @@ import react from '@vitejs/plugin-react'
 
 export default defineConfig({
   plugins: [react()],
-  base: "/BendNaturalist/", // 👈 MUST HAVE SLASHES ON BOTH SIDES
+  base: '/BendNaturalist/', // 👈 This tells Vite to add the folder name to all paths
 })
