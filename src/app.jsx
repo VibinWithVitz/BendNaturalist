@@ -11,7 +11,7 @@ const BIRDS = [
     name: "Mountain Bluebird",
     scientific: "Sialia currucoides",
     color: "#4A90D9",
-    img: "https://inaturalist-open-data.s3.amazonaws.com/photos/245267194/large.jpg",
+    imgs: ["https://inaturalist-open-data.s3.amazonaws.com/photos/245267194/large.jpg","https://static.inaturalist.org/photos/270742961/large.jpeg","https://inaturalist-open-data.s3.amazonaws.com/photos/201776048/large.jpeg"],
     audio: "https://xeno-canto.org/sounds/uploaded/GVVNEJJEGA/XC441351-MOBL_2018-06-09_Opal_City_OR_1448%282%29.mp3",
     xcId: "441351",
     facts: [
@@ -25,7 +25,7 @@ const BIRDS = [
     name: "Western Meadowlark",
     scientific: "Sturnella neglecta",
     color: "#E8B830",
-    img: "https://static.inaturalist.org/photos/490722638/large.jpg",
+    imgs: ["https://static.inaturalist.org/photos/490722638/large.jpg","https://inaturalist-open-data.s3.amazonaws.com/photos/28781135/large.jpeg","https://inaturalist-open-data.s3.amazonaws.com/photos/28781133/large.jpeg"],
     audio: "https://xeno-canto.org/sounds/uploaded/YBJUQSUJFZ/XC370746-Western%20Meadowlark.mp3",
     xcId: "370746",
     facts: [
@@ -39,7 +39,7 @@ const BIRDS = [
     name: "Steller's Jay",
     scientific: "Cyanocitta stelleri",
     color: "#1B4F8A",
-    img: "https://inaturalist-open-data.s3.amazonaws.com/photos/462234787/large.jpg",
+    imgs: ["https://inaturalist-open-data.s3.amazonaws.com/photos/462234787/large.jpg","https://inaturalist-open-data.s3.amazonaws.com/photos/112600766/large.jpg","https://inaturalist-open-data.s3.amazonaws.com/photos/112601335/large.jpg"],
     audio: "https://xeno-canto.org/sounds/uploaded/GVVNEJJEGA/XC545913-STJA_2020-01-19_Wildwood_Trail_Newberry_TH_Forest_Park_Portland_OR_0844.mp3",
     xcId: "545913",
     facts: [
@@ -53,7 +53,7 @@ const BIRDS = [
     name: "Clark's Nutcracker",
     scientific: "Nucifraga columbiana",
     color: "#8E8E8E",
-    img: "https://static.inaturalist.org/photos/350111806/large.jpg",
+    imgs: ["https://static.inaturalist.org/photos/350111806/large.jpg","https://static.inaturalist.org/photos/337142099/large.jpg","https://static.inaturalist.org/photos/337142507/large.jpg"],
     audio: "https://xeno-canto.org/sounds/uploaded/OCGLDSUVRE/XC567739-Clark%27s%20Nutcracker%20Nucifraga%20columbiana%20Blue%20Lake%2C%20lassen%20Co.%20CA%206-9-2020.mp3",
     xcId: "567739",
     facts: [
@@ -67,7 +67,7 @@ const BIRDS = [
     name: "Osprey",
     scientific: "Pandion haliaetus",
     color: "#5D4037",
-    img: "https://inaturalist-open-data.s3.amazonaws.com/photos/6903515/large.jpg",
+    imgs: ["https://inaturalist-open-data.s3.amazonaws.com/photos/6903515/large.jpg","https://inaturalist-open-data.s3.amazonaws.com/photos/169598841/large.jpg","https://inaturalist-open-data.s3.amazonaws.com/photos/5918176/large.jpg"],
     audio: "https://xeno-canto.org/sounds/uploaded/FSCGENVPXK/XC1027115-OSPREY-juv-Edwin-B-Forsyth-NWR-NJ-10.11am-08052025.mp3",
     xcId: "1027115",
     facts: [
@@ -81,7 +81,7 @@ const BIRDS = [
     name: "American Dipper",
     scientific: "Cinclus mexicanus",
     color: "#4A5568",
-    img: "https://inaturalist-open-data.s3.amazonaws.com/photos/247681814/large.jpeg",
+    imgs: ["https://inaturalist-open-data.s3.amazonaws.com/photos/247681814/large.jpeg","https://inaturalist-open-data.s3.amazonaws.com/photos/252613501/large.jpg","https://inaturalist-open-data.s3.amazonaws.com/photos/247682016/large.jpeg"],
     audio: "https://xeno-canto.org/sounds/uploaded/GVVNEJJEGA/XC368598-AMDI_2017-04-01_Dry_Wolf_Lewis_and_Clark_NF_MT_1347%282%29.mp3",
     xcId: "368598",
     facts: [
@@ -95,7 +95,7 @@ const BIRDS = [
     name: "White-headed Woodpecker",
     scientific: "Leuconotopicus albolarvatus",
     color: "#2D2D2D",
-    img: "https://static.inaturalist.org/photos/222639432/large.jpg",
+    imgs: ["https://static.inaturalist.org/photos/222639432/large.jpg","https://static.inaturalist.org/photos/305470009/large.jpg","https://inaturalist-open-data.s3.amazonaws.com/photos/451869943/large.jpg"],
     audio: "https://xeno-canto.org/sounds/uploaded/YWRKFXUDUR/XC1028546-100-Woodpecker---White-headed-%28Picoides-a.-albolaxrvatus%29-Calls-AUG-1030h-750m-WenasCampWA_gi_250807_026.mp3",
     xcId: "1028546",
     facts: [
@@ -109,7 +109,7 @@ const BIRDS = [
     name: "Lewis's Woodpecker",
     scientific: "Melanerpes lewis",
     color: "#8B4557",
-    img: "https://inaturalist-open-data.s3.amazonaws.com/photos/185364259/large.jpeg",
+    imgs: ["https://inaturalist-open-data.s3.amazonaws.com/photos/185364259/large.jpeg","https://inaturalist-open-data.s3.amazonaws.com/photos/246727627/large.jpg","https://inaturalist-open-data.s3.amazonaws.com/photos/246727708/large.jpg"],
     audio: "https://xeno-canto.org/sounds/uploaded/FVNPWGEQCT/XC786998-LEWOcalls_DCH_SAC_3-17-23_0957.mp3",
     xcId: "786998",
     facts: [
@@ -123,7 +123,7 @@ const BIRDS = [
     name: "Pygmy Nuthatch",
     scientific: "Sitta pygmaea",
     color: "#8B7D6B",
-    img: "https://static.inaturalist.org/photos/315157698/large.png",
+    imgs: ["https://static.inaturalist.org/photos/315157698/large.png","https://inaturalist-open-data.s3.amazonaws.com/photos/254124659/large.jpg","https://inaturalist-open-data.s3.amazonaws.com/photos/298314421/large.jpeg"],
     audio: "https://xeno-canto.org/sounds/uploaded/YQNGFTBRRT/XC500962-PYNU_Baldy_2Sep2014_Harter_01.mp3",
     xcId: "500962",
     facts: [
@@ -137,7 +137,7 @@ const BIRDS = [
     name: "Red-tailed Hawk",
     scientific: "Buteo jamaicensis",
     color: "#A0522D",
-    img: "https://inaturalist-open-data.s3.amazonaws.com/photos/101327658/large.jpg",
+    imgs: ["https://inaturalist-open-data.s3.amazonaws.com/photos/101327658/large.jpg","https://inaturalist-open-data.s3.amazonaws.com/photos/256001927/large.jpg","https://inaturalist-open-data.s3.amazonaws.com/photos/256001938/large.jpg"],
     audio: "https://xeno-canto.org/sounds/uploaded/WSTGWONJJJ/XC449110-Red-tailed%20Hawk_South%20End%20Pond_190106.mp3",
     xcId: "449110",
     facts: [
@@ -151,7 +151,7 @@ const BIRDS = [
     name: "Great Horned Owl",
     scientific: "Bubo virginianus",
     color: "#4A3728",
-    img: "https://inaturalist-open-data.s3.amazonaws.com/photos/14549085/large.jpg",
+    imgs: ["https://inaturalist-open-data.s3.amazonaws.com/photos/14549085/large.jpg","https://inaturalist-open-data.s3.amazonaws.com/photos/35240981/large.jpg","https://static.inaturalist.org/photos/6473199/large.jpg"],
     audio: "https://xeno-canto.org/sounds/uploaded/CQVHGWMGMC/XC1087243-ghow031126.mp3",
     xcId: "1087243",
     facts: [
@@ -165,7 +165,7 @@ const BIRDS = [
     name: "Bald Eagle",
     scientific: "Haliaeetus leucocephalus",
     color: "#3E2723",
-    img: "https://inaturalist-open-data.s3.amazonaws.com/photos/349074095/large.jpeg",
+    imgs: ["https://inaturalist-open-data.s3.amazonaws.com/photos/349074095/large.jpeg","https://inaturalist-open-data.s3.amazonaws.com/photos/107638203/large.jpg","https://inaturalist-open-data.s3.amazonaws.com/photos/107638209/large.jpg"],
     audio: "https://xeno-canto.org/sounds/uploaded/NPYDVIEFTA/XC535101-GAARFLOR_20180629_082440%20clear%20Bald%20Eagle%20calls.MP3",
     xcId: "535101",
     facts: [
@@ -179,7 +179,7 @@ const BIRDS = [
     name: "Western Tanager",
     scientific: "Piranga ludoviciana",
     color: "#E85D26",
-    img: "https://inaturalist-open-data.s3.amazonaws.com/photos/139350607/large.jpg",
+    imgs: ["https://inaturalist-open-data.s3.amazonaws.com/photos/139350607/large.jpg","https://inaturalist-open-data.s3.amazonaws.com/photos/75370656/large.jpg","https://inaturalist-open-data.s3.amazonaws.com/photos/181932470/large.jpg"],
     audio: "https://xeno-canto.org/sounds/uploaded/GVVNEJJEGA/XC441367-WETA_ATFL_2018-06-09_Geneva_OR_1036%282%29.mp3",
     xcId: "441367",
     facts: [
@@ -193,7 +193,7 @@ const BIRDS = [
     name: "Calliope Hummingbird",
     scientific: "Selasphorus calliope",
     color: "#C850C0",
-    img: "https://static.inaturalist.org/photos/339839511/large.jpg",
+    imgs: ["https://static.inaturalist.org/photos/339839511/large.jpg","https://inaturalist-open-data.s3.amazonaws.com/photos/87723546/large.jpg","https://inaturalist-open-data.s3.amazonaws.com/photos/106777209/large.jpg"],
     audio: "https://xeno-canto.org/sounds/uploaded/JHFICMRVUX/XC764433-061422-0608-Caliope-Hummingbird.mp3",
     xcId: "764433",
     facts: [
@@ -207,7 +207,7 @@ const BIRDS = [
     name: "Mountain Chickadee",
     scientific: "Poecile gambeli",
     color: "#6B7B6E",
-    img: "https://inaturalist-open-data.s3.amazonaws.com/photos/264443940/large.jpg",
+    imgs: ["https://inaturalist-open-data.s3.amazonaws.com/photos/264443940/large.jpg","https://inaturalist-open-data.s3.amazonaws.com/photos/305911416/large.jpg","https://inaturalist-open-data.s3.amazonaws.com/photos/200985227/large.jpg"],
     audio: "https://xeno-canto.org/sounds/uploaded/GVVNEJJEGA/XC349466-MOCH_RBNU_03-18-2016_Little_Belt_Mountains_MT_1434.mp3",
     xcId: "349466",
     facts: [
@@ -221,7 +221,7 @@ const BIRDS = [
     name: "Red Crossbill",
     scientific: "Loxia curvirostra",
     color: "#C0392B",
-    img: "https://inaturalist-open-data.s3.amazonaws.com/photos/332346026/large.jpeg",
+    imgs: ["https://inaturalist-open-data.s3.amazonaws.com/photos/332346026/large.jpeg","https://inaturalist-open-data.s3.amazonaws.com/photos/2099694/large.JPG","https://inaturalist-open-data.s3.amazonaws.com/photos/2099724/large.JPG"],
     audio: "https://xeno-canto.org/sounds/uploaded/DJPZGYTAWH/XC1091440-Lille-Korsn%C3%A6b-%28Loxia-curvirostra%29-Isenvad_20241109-1332-sang.mp3",
     xcId: "1091440",
     facts: [
@@ -235,7 +235,7 @@ const BIRDS = [
     name: "Common Raven",
     scientific: "Corvus corax",
     color: "#1A1A2E",
-    img: "https://inaturalist-open-data.s3.amazonaws.com/photos/54389687/large.jpg",
+    imgs: ["https://inaturalist-open-data.s3.amazonaws.com/photos/54389687/large.jpg","https://inaturalist-open-data.s3.amazonaws.com/photos/344773724/large.jpeg","https://inaturalist-open-data.s3.amazonaws.com/photos/345102677/large.jpeg"],
     audio: "https://xeno-canto.org/sounds/uploaded/MMEJYLOPDO/XC1084372-Korp_74.mp3",
     xcId: "1084372",
     facts: [
@@ -249,7 +249,7 @@ const BIRDS = [
     name: "Sandhill Crane",
     scientific: "Antigone canadensis",
     color: "#7B8B6F",
-    img: "https://static.inaturalist.org/photos/269274277/large.jpg",
+    imgs: ["https://static.inaturalist.org/photos/269274277/large.jpg","https://inaturalist-open-data.s3.amazonaws.com/photos/153610636/large.jpeg","https://inaturalist-open-data.s3.amazonaws.com/photos/153611231/large.gif"],
     audio: "https://xeno-canto.org/sounds/uploaded/WFUNWVJFSZ/XC552624-20200427-hillman-sandhill.mp3",
     xcId: "552624",
     facts: [
@@ -263,7 +263,7 @@ const BIRDS = [
     name: "Northern Flicker",
     scientific: "Colaptes auratus",
     color: "#D4845A",
-    img: "https://inaturalist-open-data.s3.amazonaws.com/photos/123812445/large.jpg",
+    imgs: ["https://inaturalist-open-data.s3.amazonaws.com/photos/123812445/large.jpg","https://inaturalist-open-data.s3.amazonaws.com/photos/13510053/large.jpg","https://inaturalist-open-data.s3.amazonaws.com/photos/13510055/large.jpg"],
     audio: "https://xeno-canto.org/sounds/uploaded/UTLXKPYDDK/XC1069251-Northern_Flicker-T-12-27-25-AUD.mp3",
     xcId: "1069251",
     facts: [
@@ -277,7 +277,7 @@ const BIRDS = [
     name: "Williamson's Sapsucker",
     scientific: "Sphyrapicus thyroideus",
     color: "#2E4057",
-    img: "https://inaturalist-open-data.s3.amazonaws.com/photos/207903479/large.jpg",
+    imgs: ["https://inaturalist-open-data.s3.amazonaws.com/photos/207903479/large.jpg","https://inaturalist-open-data.s3.amazonaws.com/photos/10829149/large.jpg","https://inaturalist-open-data.s3.amazonaws.com/photos/10829147/large.jpg"],
     audio: "https://xeno-canto.org/sounds/uploaded/OCGLDSUVRE/XC564199-Williamson%27s%20sapsucker%20Sphyrapicus%20thtoideus%20Hwy%2088%20Eldorado%20Co.%20CA%205-31-2020.mp3",
     xcId: "564199",
     facts: [
@@ -291,7 +291,7 @@ const BIRDS = [
     name: "Golden Eagle",
     scientific: "Aquila chrysaetos",
     color: "#8B6914",
-    img: "https://static.inaturalist.org/photos/168362446/large.jpg",
+    imgs: ["https://static.inaturalist.org/photos/168362446/large.jpg","https://static.inaturalist.org/photos/26135943/large.jpg","https://static.inaturalist.org/photos/319675523/large.jpeg"],
     audio: "https://xeno-canto.org/sounds/uploaded/MMEJYLOPDO/XC1045328-Kungs%C3%B6rn_17.mp3",
     xcId: "1045328",
     facts: [
@@ -305,7 +305,7 @@ const BIRDS = [
     name: "Prairie Falcon",
     scientific: "Falco mexicanus",
     color: "#B8A88A",
-    img: "https://inaturalist-open-data.s3.amazonaws.com/photos/112241286/large.jpg",
+    imgs: ["https://inaturalist-open-data.s3.amazonaws.com/photos/112241286/large.jpg","https://inaturalist-open-data.s3.amazonaws.com/photos/112241279/large.jpg","https://inaturalist-open-data.s3.amazonaws.com/photos/112241292/large.jpg"],
     audio: "https://xeno-canto.org/sounds/uploaded/GVVNEJJEGA/XC386262-PRFA_HAFL_GTTO_2017-05-20_Bear_Canyon_Pryor_Mts_MT_0851%282%29.mp3",
     xcId: "386262",
     facts: [
@@ -319,7 +319,7 @@ const BIRDS = [
     name: "Turkey Vulture",
     scientific: "Cathartes aura",
     color: "#6B3A3A",
-    img: "https://inaturalist-open-data.s3.amazonaws.com/photos/52277010/large.jpg",
+    imgs: ["https://inaturalist-open-data.s3.amazonaws.com/photos/52277010/large.jpg","https://inaturalist-open-data.s3.amazonaws.com/photos/111499368/large.jpeg","https://inaturalist-open-data.s3.amazonaws.com/photos/111499362/large.jpeg"],
     audio: "https://xeno-canto.org/sounds/uploaded/SEVIQQAKWM/XC520288-ZOOM0004_Tr1%20-%20Jote%20Cabeza%20colorada.mp3",
     xcId: "520288",
     facts: [
@@ -333,7 +333,7 @@ const BIRDS = [
     name: "Lazuli Bunting",
     scientific: "Passerina amoena",
     color: "#4682B4",
-    img: "https://static.inaturalist.org/photos/217851140/large.jpeg",
+    imgs: ["https://static.inaturalist.org/photos/217851140/large.jpeg","https://inaturalist-open-data.s3.amazonaws.com/photos/70539175/large.jpeg","https://inaturalist-open-data.s3.amazonaws.com/photos/70539488/large.jpeg"],
     audio: "https://xeno-canto.org/sounds/uploaded/OCGLDSUVRE/XC570661-Lazuli%20Bunting%20Passerina%20ameona%20Cucomungo%20Canyon.%20Inyo%20Co.%20CA%206-20-2020.mp3",
     xcId: "570661",
     facts: [
@@ -347,7 +347,7 @@ const BIRDS = [
     name: "Green-tailed Towhee",
     scientific: "Pipilo chlorurus",
     color: "#6B8E23",
-    img: "https://inaturalist-open-data.s3.amazonaws.com/photos/246727236/large.jpg",
+    imgs: ["https://inaturalist-open-data.s3.amazonaws.com/photos/246727236/large.jpg","https://inaturalist-open-data.s3.amazonaws.com/photos/246727313/large.jpg","https://inaturalist-open-data.s3.amazonaws.com/photos/246727312/large.jpg"],
     audio: "https://xeno-canto.org/sounds/uploaded/OCGLDSUVRE/XC557066-Green-tailed%20Towhee%20Pipolo%20chlorurus%20Big%20Pine%20Canyon%2C%20Inyo%20County%20CA%204-27-19.mp3",
     xcId: "557066",
     facts: [
@@ -361,7 +361,7 @@ const BIRDS = [
     name: "Black-billed Magpie",
     scientific: "Pica hudsonia",
     color: "#1C1C1C",
-    img: "https://static.inaturalist.org/photos/29485872/large.jpg",
+    imgs: ["https://static.inaturalist.org/photos/29485872/large.jpg","https://static.inaturalist.org/photos/197175609/large.jpeg","https://static.inaturalist.org/photos/197175769/large.jpeg"],
     audio: "https://xeno-canto.org/sounds/uploaded/GVVNEJJEGA/XC361480-BBMA_2017-03-10_Forest_Vale_Cementery_Helena_MT_1441%282%29.mp3",
     xcId: "361480",
     facts: [
@@ -375,7 +375,7 @@ const BIRDS = [
     name: "Townsend's Solitaire",
     scientific: "Myadestes townsendi",
     color: "#9E9E9E",
-    img: "https://inaturalist-open-data.s3.amazonaws.com/photos/106405630/large.jpg",
+    imgs: ["https://inaturalist-open-data.s3.amazonaws.com/photos/106405630/large.jpg","https://inaturalist-open-data.s3.amazonaws.com/photos/117290059/large.jpeg","https://inaturalist-open-data.s3.amazonaws.com/photos/117290085/large.jpeg"],
     audio: "https://xeno-canto.org/sounds/uploaded/DUWDSSWZPN/XC1044204-250929_071649_Townsend-s-Solitaire.mp3",
     xcId: "1044204",
     facts: [
@@ -389,7 +389,7 @@ const BIRDS = [
     name: "Yellow-rumped Warbler",
     scientific: "Setophaga coronata",
     color: "#D4C75A",
-    img: "https://inaturalist-open-data.s3.amazonaws.com/photos/128439522/large.jpg",
+    imgs: ["https://inaturalist-open-data.s3.amazonaws.com/photos/128439522/large.jpg","https://inaturalist-open-data.s3.amazonaws.com/photos/109843994/large.jpg","https://inaturalist-open-data.s3.amazonaws.com/photos/109844005/large.jpg"],
     audio: "https://xeno-canto.org/sounds/uploaded/SDPCHKOHRH/XC1020578-Thu-May-22-2025-22-05-16-Paruline-%C3%A0-croupion-jaune-cri-chant-A.mp3",
     xcId: "1020578",
     facts: [
@@ -403,7 +403,7 @@ const BIRDS = [
     name: "Spotted Towhee",
     scientific: "Pipilo maculatus",
     color: "#C44D2A",
-    img: "https://inaturalist-open-data.s3.amazonaws.com/photos/30818274/large.jpg",
+    imgs: ["https://inaturalist-open-data.s3.amazonaws.com/photos/30818274/large.jpg","https://inaturalist-open-data.s3.amazonaws.com/photos/192058930/large.jpg","https://inaturalist-open-data.s3.amazonaws.com/photos/192058911/large.jpg"],
     audio: "https://xeno-canto.org/sounds/uploaded/OCGLDSUVRE/XC559006-Spotted%20Towhee%20Pipilo%20maculatus%2C%20Birchim%20Canyon%2C%20Inyo%20Co.%20CA%204-27-20.mp3",
     xcId: "559006",
     facts: [
@@ -417,7 +417,7 @@ const BIRDS = [
     name: "Barn Owl",
     scientific: "Tyto alba",
     color: "#D4A574",
-    img: "https://inaturalist-open-data.s3.amazonaws.com/photos/165796939/large.jpg",
+    imgs: ["https://inaturalist-open-data.s3.amazonaws.com/photos/165796939/large.jpg","https://inaturalist-open-data.s3.amazonaws.com/photos/4655351/large.jpg","https://inaturalist-open-data.s3.amazonaws.com/photos/176593966/large.jpg"],
     audio: "https://xeno-canto.org/sounds/uploaded/JDDHNKDHCS/XC1090793-2026.03.24-03h57-Effraie.mp3",
     xcId: "1090793",
     facts: [
@@ -438,14 +438,17 @@ const P = {
   darkBrown: "#3E2723", sage: "#6B8F71", softGold: "#C9A96E", muted: "#8B7D6B",
 };
 
-export default function BirdsOfCentralOregon() {
+export default function BirdsOfCentralOregon({ onBack }) {
   const [index, setIndex] = useState(0);
   const [flipped, setFlipped] = useState(false);
   const [playing, setPlaying] = useState(false);
   const [audioReady, setAudioReady] = useState(false);
   const [shuffled, setShuffled] = useState(false);
   const [order, setOrder] = useState(BIRDS.map((_, i) => i));
-  const [touchStart, setTouchStart] = useState(null);
+  const [touchStart, setTouchStart] = useState(null); // {x, y}
+  const [swipe, setSwipe] = useState(null); // 'next-exit'|'next-enter'|'prev-exit'|'prev-enter'|null
+  const [photoIdx, setPhotoIdx] = useState(0);
+  const navigating = useRef(false);
   const audioRef = useRef(null);
 
   const bird = BIRDS[order[index]];
@@ -483,17 +486,40 @@ export default function BirdsOfCentralOregon() {
   const flip = useCallback(() => { setFlipped(f => !f); }, []);
 
   const goTo = useCallback((i) => {
-    setIndex(i); setFlipped(false);
+    setIndex(i); setFlipped(false); setPhotoIdx(Math.floor(Math.random() * 3));
   }, []);
 
+  const cyclePhoto = useCallback((e) => {
+    if (e) e.stopPropagation();
+    setPhotoIdx(i => i + 1); // modulo applied at render time
+  }, []);
+
+  const SWIPE_MS = 260;
+
   const next = useCallback(() => {
-    setFlipped(false);
-    setIndex(i => (i + 1) % BIRDS.length);
+    if (navigating.current) return;
+    navigating.current = true;
+    setSwipe('next-exit');
+    setTimeout(() => {
+      setFlipped(false);
+      setPhotoIdx(Math.floor(Math.random() * 3));
+      setIndex(i => (i + 1) % BIRDS.length);
+      setSwipe('next-enter');
+      setTimeout(() => { setSwipe(null); navigating.current = false; }, SWIPE_MS);
+    }, SWIPE_MS);
   }, []);
 
   const prev = useCallback(() => {
-    setFlipped(false);
-    setIndex(i => (i - 1 + BIRDS.length) % BIRDS.length);
+    if (navigating.current) return;
+    navigating.current = true;
+    setSwipe('prev-exit');
+    setTimeout(() => {
+      setFlipped(false);
+      setPhotoIdx(Math.floor(Math.random() * 3));
+      setIndex(i => (i - 1 + BIRDS.length) % BIRDS.length);
+      setSwipe('prev-enter');
+      setTimeout(() => { setSwipe(null); navigating.current = false; }, SWIPE_MS);
+    }, SWIPE_MS);
   }, []);
 
   const toggleShuffle = useCallback(() => {
@@ -515,11 +541,12 @@ export default function BirdsOfCentralOregon() {
     const h = (e) => {
       if (e.key === "ArrowRight") next();
       else if (e.key === "ArrowLeft") prev();
+      else if (e.key === "ArrowUp") { e.preventDefault(); cyclePhoto(null); }
       else if (e.key === " " || e.key === "Enter") { e.preventDefault(); flip(); }
     };
     window.addEventListener("keydown", h);
     return () => window.removeEventListener("keydown", h);
-  }, [next, prev, flip]);
+  }, [next, prev, flip, cyclePhoto]);
 
   return (
     <>
@@ -541,6 +568,14 @@ export default function BirdsOfCentralOregon() {
         @keyframes fadeUp { from { opacity:0; transform:translateY(6px); } to { opacity:1; transform:translateY(0); } }
         @keyframes shimmer { 0%{background-position:200% 0} 100%{background-position:-200% 0} }
         .shimmer { background: linear-gradient(90deg,#e8dcc8 25%,#f0e6d4 50%,#e8dcc8 75%); background-size: 200% 100%; animation: shimmer 1.5s infinite; }
+        @keyframes swipeOutLeft { from{transform:translateX(0);opacity:1} to{transform:translateX(-105%);opacity:0} }
+        @keyframes swipeOutRight { from{transform:translateX(0);opacity:1} to{transform:translateX(105%);opacity:0} }
+        @keyframes swipeInFromRight { from{transform:translateX(105%);opacity:0} to{transform:translateX(0);opacity:1} }
+        @keyframes swipeInFromLeft { from{transform:translateX(-105%);opacity:0} to{transform:translateX(0);opacity:1} }
+        .next-exit { animation: swipeOutLeft 0.26s cubic-bezier(0.4,0,0.2,1) forwards; pointer-events:none; }
+        .next-enter { animation: swipeInFromRight 0.26s cubic-bezier(0.4,0,0.2,1) forwards; }
+        .prev-exit { animation: swipeOutRight 0.26s cubic-bezier(0.4,0,0.2,1) forwards; pointer-events:none; }
+        .prev-enter { animation: swipeInFromLeft 0.26s cubic-bezier(0.4,0,0.2,1) forwards; }
         @media(max-width:480px){ .card-scene{ max-width:92vw; aspect-ratio:3/4.4; } .nav-btn{width:42px;height:42px;font-size:18px;} }
       `}</style>
 
@@ -555,29 +590,40 @@ export default function BirdsOfCentralOregon() {
       <div style={{ minHeight:"100vh", background:`linear-gradient(180deg,${P.cream},#EDE1CF)`, fontFamily:"'Lora',Georgia,serif", color:P.darkBrown, padding:"20px 16px 32px", display:"flex", flexDirection:"column", alignItems:"center" }}>
 
         {/* Header */}
-        <div style={{ textAlign:"center", marginBottom:24 }}>
-          <h1 style={{ fontFamily:"'Playfair Display',Georgia,serif", fontSize:"clamp(1.4rem,4vw,2rem)", fontWeight:600, color:P.warmBrown, letterSpacing:"0.02em", marginBottom:4 }}>
-            Birds of Central Oregon
-          </h1>
-          <p style={{ fontSize:"0.85rem", color:P.muted, fontStyle:"italic" }}>A field guide flashcard deck</p>
+        <div style={{ width:"100%", maxWidth:460, marginBottom:24 }}>
+          {onBack && (
+            <button onClick={onBack} style={{ background:"none", border:"none", cursor:"pointer", color:P.muted, fontSize:"0.8rem", fontFamily:"'Lora',Georgia,serif", padding:"0 0 10px", display:"flex", alignItems:"center", gap:4 }}>
+              ← Bend Naturalist
+            </button>
+          )}
+          <div style={{ textAlign:"center" }}>
+            <h1 style={{ fontFamily:"'Playfair Display',Georgia,serif", fontSize:"clamp(1.4rem,4vw,2rem)", fontWeight:600, color:P.warmBrown, letterSpacing:"0.02em", marginBottom:4 }}>
+              Birds of Central Oregon
+            </h1>
+            <p style={{ fontSize:"0.85rem", color:P.muted, fontStyle:"italic" }}>A field guide flashcard deck</p>
+          </div>
         </div>
 
         {/* Card */}
-        <div className="card-scene"
-          onTouchStart={e => setTouchStart(e.touches[0].clientX)}
+        <div style={{ width:"100%", maxWidth:420, overflow:"hidden", margin:"0 auto" }}
+          onTouchStart={e => setTouchStart({ x: e.touches[0].clientX, y: e.touches[0].clientY })}
           onTouchEnd={e => {
-            const diff = e.changedTouches[0].clientX - touchStart;
-            if (Math.abs(diff) > 55) { diff > 0 ? prev() : next(); }
+            if (!touchStart) return;
+            const dx = e.changedTouches[0].clientX - touchStart.x;
+            const dy = e.changedTouches[0].clientY - touchStart.y;
+            if (Math.abs(dy) > Math.abs(dx) && dy < -50) { cyclePhoto(null); }
+            else if (Math.abs(dx) > Math.abs(dy) && Math.abs(dx) > 55) { dx > 0 ? prev() : next(); }
             setTouchStart(null);
           }}
         >
+        <div className={`card-scene ${swipe || ""}`}>
           <div className={`card ${flipped ? "flipped" : ""}`} onClick={flip}>
 
             {/* ── FRONT ── */}
             <div className="face" style={{ background:P.parchment, border:`2px solid ${P.softGold}`, boxShadow:"0 8px 32px rgba(93,64,55,0.14)" }}>
               <div style={{ flex:1, position:"relative", overflow:"hidden", background:`linear-gradient(135deg,${bird.color}18,${bird.color}35)` }}>
                 <img
-                  src={bird.img}
+                  src={(bird.imgs || [bird.img])[photoIdx % (bird.imgs || [bird.img]).length]}
                   alt={`Photo of ${bird.name}`}
                   style={{ width:"100%", height:"100%", objectFit:"cover", objectPosition:"center 20%", display:"block" }}
                 />
@@ -599,6 +645,33 @@ export default function BirdsOfCentralOregon() {
                 >
                   {playing ? "▐▐" : "♪"}
                 </button>
+
+                {/* Cycle photo button */}
+                {(bird.imgs || [bird.img]).length > 1 && (
+                  <button
+                    className="btn"
+                    onClick={cyclePhoto}
+                    aria-label="Next photo"
+                    style={{
+                      position:"absolute", top:10, right:10,
+                      width:38, height:38, borderRadius:"50%",
+                      background:"rgba(255,255,255,0.85)",
+                      color:P.warmBrown, fontSize:16,
+                      display:"flex", alignItems:"center", justifyContent:"center",
+                      backdropFilter:"blur(6px)", border:`1px solid rgba(255,255,255,0.6)`,
+                      boxShadow:"0 2px 10px rgba(0,0,0,0.18)", zIndex:2,
+                    }}
+                  >
+                    ↑
+                  </button>
+                )}
+
+                {/* Photo counter */}
+                {(bird.imgs || [bird.img]).length > 1 && (
+                  <div style={{ position:"absolute", top:10, left:10, padding:"2px 8px", borderRadius:10, background:"rgba(0,0,0,0.4)", backdropFilter:"blur(4px)", fontSize:"0.6rem", color:"rgba(255,255,255,0.85)" }}>
+                    {photoIdx % (bird.imgs || [bird.img]).length + 1}/{(bird.imgs || [bird.img]).length}
+                  </div>
+                )}
 
                 {/* Source badge */}
                 <div style={{ position:"absolute", bottom:8, left:8, padding:"2px 8px", borderRadius:10, background:"rgba(0,0,0,0.4)", backdropFilter:"blur(4px)", fontSize:"0.6rem", color:"rgba(255,255,255,0.85)" }}>
@@ -645,6 +718,7 @@ export default function BirdsOfCentralOregon() {
             </div>
           </div>
         </div>
+        </div>
 
         {/* Controls */}
         <div style={{ display:"flex", alignItems:"center", justifyContent:"center", gap:20, marginTop:22 }}>
@@ -669,7 +743,7 @@ export default function BirdsOfCentralOregon() {
           {shuffled ? "✦ Shuffled" : "Shuffle Deck"}
         </button>
 
-        <p style={{ marginTop:13, fontSize:"0.7rem", color:`${P.muted}90`, textAlign:"center" }}>← → navigate · Space to flip · Swipe on mobile</p>
+        <p style={{ marginTop:13, fontSize:"0.7rem", color:`${P.muted}90`, textAlign:"center" }}>← → navigate · ↑ cycle photo · Space to flip · Swipe on mobile</p>
 
         <p style={{ marginTop:18, fontSize:"0.62rem", color:`${P.muted}75`, textAlign:"center", maxWidth:360, lineHeight:1.6 }}>
           Photos © iNaturalist contributors (CC BY-NC) · Songs © xeno-canto.org contributors (CC)
