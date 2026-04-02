@@ -182,7 +182,7 @@ const BIRDS = [
     name: "Red-tailed Hawk",
     scientific: "Buteo jamaicensis",
     color: "#A0522D",
-    imgs: ["https://cdn.download.ams.birds.cornell.edu/api/v2/asset/380778111/1200","https://cdn.download.ams.birds.cornell.edu/api/v2/asset/390920461/1200","https://cdn.download.ams.birds.cornell.edu/api/v2/asset/380778141/1200","https://cdn.download.ams.birds.cornell.edu/api/v2/asset/275510351/1200"],
+    imgs: ["https://cdn.download.ams.birds.cornell.edu/api/v2/asset/380778111/1200","https://cdn.download.ams.birds.cornell.edu/api/v2/asset/80930791/1200","https://cdn.download.ams.birds.cornell.edu/api/v2/asset/380778141/1200","https://cdn.download.ams.birds.cornell.edu/api/v2/asset/507191441/1200"],
     audio: "https://xeno-canto.org/sounds/uploaded/WSTGWONJJJ/XC449110-Red-tailed%20Hawk_South%20End%20Pond_190106.mp3",
     xcId: "449110",
     facts: [
